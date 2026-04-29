@@ -25,55 +25,61 @@ To support data-driven decision-making by identifying high-impact factors such a
 ## 📂 Dataset
 
 * Source: Online Shoppers Intention Dataset
+
 Each row represents a user session
 
 * Key Features:
+
 Page interaction metrics (Administrative, Informational, ProductRelated)
+
 Time spent on pages
+
 Bounce Rate & Exit Rate
+
 Visitor Type (New / Returning)
+
 Page Value
 
-*Target variable: Revenue (True/False)
+* Target variable: Revenue (True/False)
 
 ---
 ## ⚙️ Tools & Technologies
 
-Python (Pandas, NumPy, Seaborn, Matplotlib)
-Power BI (Dashboard & Visualization)
-Scikit-learn (Random Forest for Feature Importance)
+* Python (Pandas, NumPy, Seaborn, Matplotlib)
+* Power BI (Dashboard & Visualization)
+* Scikit-learn (Random Forest for Feature Importance)
 
 ---
 ## 🧹 Data Preprocessing
 
-Checked and handled missing values
-Removed 125 duplicate records
-Converted data types and encoded categorical variables
-Analyzed and handled outliers without losing critical behavioral insights
+* Checked and handled missing values
+* Removed 125 duplicate records
+* Converted data types and encoded categorical variables
+* Analyzed and handled outliers without losing critical behavioral insights
 
 ---
 ## 📊 Exploratory Data Analysis
 
-Calculated overall conversion rate (~15%)
-Compared buyer vs non-buyer behavior
-Analyzed engagement patterns and distributions
-Used visualizations (bar charts, heatmaps, scatter plots) to uncover relationships
+* Calculated overall conversion rate (~15%)
+* Compared buyer vs non-buyer behavior
+* Analyzed engagement patterns and distributions
+* Used visualizations (bar charts, heatmaps, scatter plots) to uncover relationships
 
 ---
 ## 🔥 Key Insights
 
-Low Conversion Rate: Only ~15% users convert, indicating a major opportunity for optimization
-Engagement Drives Conversion: Buyers spend significantly more time, especially on product pages
-Page Value is the Strongest Indicator: High page values strongly correlate with purchase behavior
-Bounce Rate Impact: Higher bounce rates significantly reduce conversion likelihood
-Returning Users Convert More: Repeat visitors show stronger purchase intent
+* Low Conversion Rate: Only ~15% users convert, indicating a major opportunity for optimization
+* Engagement Drives Conversion: Buyers spend significantly more time, especially on product pages
+* Page Value is the Strongest Indicator: High page values strongly correlate with purchase behavior
+* Bounce Rate Impact: Higher bounce rates significantly reduce conversion likelihood
+* Returning Users Convert More: Repeat visitors show stronger purchase intent
 
 ---
 ## 📈 Feature Importance
 
 A Random Forest model was used to identify the most influential features driving conversion.
 
-Top Drivers:
+* Top Drivers:
 PageValues,
 ProductRelated_Duration,
 BounceRates,
