@@ -125,7 +125,3 @@ This project enables businesses to:
 This project demonstrates how data analysis can directly impact business decisions by identifying key factors influencing customer behavior and conversion.
 
 ---
-
-📸 Dashboard Preview
-
-(Add your Power BI dashboard screenshot here)
